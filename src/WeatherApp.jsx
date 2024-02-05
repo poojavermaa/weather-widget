@@ -3,6 +3,7 @@ import InfoBox from "./infoBox";
 import { useState } from "react";
 import "./WeatherApp.css";
 
+
 export default function WeatherApp() {
   const [weatherInfo, setWeatherInfo] = useState({
     city: "Delhi",
